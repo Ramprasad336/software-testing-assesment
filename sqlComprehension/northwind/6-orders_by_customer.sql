@@ -1,0 +1,1 @@
+Select sum(order_id) from orders , customers where orders.customer_id = customers.customer_id And customers.company_name = 'Simons bistro'  and  orders.ship_via = (SELECT shipper_id FROM SHIPPERS WHERE COMPANY_NAME = 'United Package');

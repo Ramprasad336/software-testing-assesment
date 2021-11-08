@@ -1,0 +1,31 @@
+Question1:
+Query to PO:
+1. Does License have expiry period?
+2.License is specific to each    role based user? Or each individual user?
+3.what is the unique details which we require mandatory  to maintain all users (SA ID or passport or mobile).
+4.Can admin user edit all user details or particular fields only.
+5.Once delete user data should persist in the database for particular period or permanently deleted.
+6.Can we use same License in multiple machines. 
+7.If License is have expiry what is the process for issuing new License before expiry of current License. 
+8.If License is corrupted can we give another License for that user.
+9.when remove user before License expiry .Does License get deleted from database
+
+Query to technical architect :
+1.After provide all mandatory details for adding user we see submit button ?
+2. After amend details of edit user only we see save or submit button 
+3.after remove user all the details need to be softly or Hard.
+4.Verify License user on login page or for particular functionality ?
+5.vadliation rules arise after submitting or while populating each field
+
+Query to UX designer:
+1.Prototype designs
+2.Can you think of any other product that resembles this one?
+3.Would you use another device for this product? how it looks
+
+Question2:
+I would like to add/edit/remove the user diglintely with great user exprience in order to cover all the business rules with proper messages for the flow continuation.
+
+Question3:
+All the three scenarios can be automated and make sure data dependency is resolved.
+Uisng BDD based cucumber flow and behaviour of the app we can consider alot of scenarios.
+

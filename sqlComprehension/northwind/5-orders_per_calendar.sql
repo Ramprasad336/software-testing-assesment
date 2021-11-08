@@ -1,0 +1,1 @@
+Select sum(order_id),to_char(order_date,'YYYY') from orders where to_char(order_date,'yyyy') >= '1996' group by to_char(order_date,'YYYY');

@@ -13,4 +13,9 @@
 ## TestAutomation
 * Uisng Selenium based BDD Test Automation framework
 ### Packages
-* df
+* Factory : This package enables the building of driver object based on the config properties,Highlight the elements while execution
+* features : Test Scenarios scripts
+* locators : This package to identify the elements on screen
+* Runner : This package is for Test execution triggering
+* StepDefitions: This package defines the steps related to in feature file
+* Util : Read configuration props & Generic element methods.

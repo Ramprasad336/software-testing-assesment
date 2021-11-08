@@ -1,7 +1,7 @@
 # software-testing-assesment
 ## SQL
 * Prepare a docker file with all the artifacts to add postgress setup with necessary DDL'S
-** Added all the SQL Files with quries in sequentail order where it will be executed
+* Added all the SQL Files with quries in sequentail order where it will be executed
 * Build the image
 * Run the image and deploy in container(spin of image)
 * Verify the container is up and running using shell script attcahed in the sql folder

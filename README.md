@@ -19,3 +19,12 @@
 * Runner : This package is for Test execution triggering
 * StepDefitions: This package defines the steps related to in feature file
 * Util : Read configuration props & Generic element methods.
+
+### Test Execution trigger:
+* BDD Comes with feature of tags triggering
+* We have a system variable in POM.xml with name as ExecutionBDDTags in oder to trigger specific funtionality and can used in pipeline
+### Test Reports
+* Master thought plugin is used to generate the HTML Reports
+* Its is compatible with Cucumber plugin in jekins
+
+
